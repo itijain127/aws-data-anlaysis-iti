@@ -19,7 +19,7 @@ The dataset includes information about parks in Vancouver, containing the follow
 - **Facilities**: Available amenities in the park.
 - **Washrooms**: Number of washrooms available.
 - **GoogleMapDest**: Location details for navigation purposes.
-
+![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/16963bd36727e909f173eb7a2ec39653fe40c081/Images%20Project%201/Figure%201%20(Parks%20Dataset).png)
 #### Dataset Details
 - **Records**: 216
 - **Columns**: 15
@@ -28,7 +28,7 @@ The dataset includes information about parks in Vancouver, containing the follow
   - 99.99% valid entries
   - Less than 1% missing values
   - No duplicate rows
-  ![Alt text]()
+    
 ### Methodology
 
 #### 1. Data Collection and Preparation
@@ -47,6 +47,8 @@ The dataset includes information about parks in Vancouver, containing the follow
   - **Bar Charts**: Displayed average park sizes across neighborhoods.
   - **Box Plots**: Showed the range of park sizes.
   - **Heatmaps**: Represented spatial distributions of parks.
+ 
+  ![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/16963bd36727e909f173eb7a2ec39653fe40c081/Images%20Project%201/Figure%202%20(Analysis%20chart%20of%20average%20park%20size%20per%20neighbourhood).png)
 
 #### 4. Customer Segmentation (Neighborhood Analysis)
 - Segmented neighborhoods based on:
