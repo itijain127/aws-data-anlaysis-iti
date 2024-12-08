@@ -28,8 +28,7 @@ The dataset includes information about parks in Vancouver, containing the follow
   - 99.99% valid entries
   - Less than 1% missing values
   - No duplicate rows
-  ![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/fea2d88f4bb160e7ff90c369c02b08f10d4e5e39/WhatsApp%20Image%202024-11-18%20at%207.30.41%20PM.jpeg)
-
+  ![Alt text]()
 ### Methodology
 
 #### 1. Data Collection and Preparation
