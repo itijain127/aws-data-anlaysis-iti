@@ -10,7 +10,7 @@ Understanding Park Size Distribution Across Vancouver Neighborhoods
 
 ### Objective
 The primary goal of this project is to conduct a descriptive analysis of Vancouver’s parks dataset. By summarizing park size characteristics, identifying trends, and generating insights, this analysis informs urban planning and resource allocation strategies.
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/16963bd36727e909f173eb7a2ec39653fe40c081/Images%20Project%201/Figure%201%20(Parks%20Dataset).png)
+
 ### Dataset
 The dataset includes information about parks in Vancouver, containing the following key features:
 - **ParkID**: Unique identifier for each park.
@@ -19,7 +19,7 @@ The dataset includes information about parks in Vancouver, containing the follow
 - **Facilities**: Available amenities in the park.
 - **Washrooms**: Number of washrooms available.
 - **GoogleMapDest**: Location details for navigation purposes.
-
+![Dataset from Open Data portal](https://github.com/itijain127/aws-data-anlaysis-iti/blob/16963bd36727e909f173eb7a2ec39653fe40c081/Images%20Project%201/Figure%202%20(Analysis%20chart%20of%20average%20park%20size%20per%20neighbourhood).png)
 #### Dataset Details
 - **Records**: 216
 - **Columns**: 15
@@ -28,17 +28,16 @@ The dataset includes information about parks in Vancouver, containing the follow
   - 99.99% valid entries
   - Less than 1% missing values
   - No duplicate rows
-    
+
+)
 ### Methodology
-
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/16963bd36727e909f173eb7a2ec39653fe40c081/Images%20Project%201/Figure%202%20(Analysis%20chart%20of%20average%20park%20size%20per%20neighbourhood).png)
-
 #### 1. Data Collection and Preparation
 - Data was downloaded from the City of Vancouver Open Data Portal in CSV format.
 - Stored in AWS S3 bucket with structured folder paths based on ingestion year, month, and week.
 - **Tools**: AWS S3 and Draw.io for workflow visualization.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/dbe9c806d359cc5f0c7d42ec05dd3a380d94ec3f/Images%20Project%201/Figure%203%20(Design%20in%20draw.io%20for%20data%20implementation).png)
+![Design in draw.io for data implementation](aws-data-anlaysis-iti/Images Project 1
+/Figure 3 (Design in draw.io for data implementation).png)
 
 #### 2. Descriptive Statistics
 - Used AWS Glue DataBrew to generate summary statistics.
@@ -46,19 +45,13 @@ The dataset includes information about parks in Vancouver, containing the follow
   - Average Park Size per Neighborhood: Total park area divided by the number of parks in each neighborhood.
   - Park Size Distribution: Categorized into small, medium, and large parks.
 
-#### 3. Data Visualization
-- Created visual representations to illustrate findings:
-  - **Bar Charts**: Displayed average park sizes across neighborhoods.
-  - **Box Plots**: Showed the range of park sizes.
-  - **Heatmaps**: Represented spatial distributions of parks.
-
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/dbe9c806d359cc5f0c7d42ec05dd3a380d94ec3f/Images%20Project%201/Figure%204%20(Data%20ingestion%20in%20raw%20bucket).png)
+![Analysis chart of average park size per neighbourhood](Images Project 1/Figure 2 (Analysis chart of average park size per neighbourhood).png)
 
 #### 4. Customer Segmentation (Neighborhood Analysis)
 - Segmented neighborhoods based on:
   - Average park size (e.g., large vs. small parks).
   - Number of parks per neighborhood.
-- Analyzed patterns of resource distribution.
+- Analyzed patterns of parks distribution.
 
 #### 5. Insights and Findings
 - **Neighborhoods with the largest average park sizes**:
