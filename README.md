@@ -170,6 +170,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
 
 
 #### Key Findings:
+
 | Neighborhood              | Number of Parks | Average Park Size (Hectares) |
 |---------------------------|-----------------|-----------------------------|
 | Downtown                  | 22              | 1.45                        |
