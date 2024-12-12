@@ -307,7 +307,9 @@ The objective of this project was to implement data protection and governance pr
 3. An automated data quality pipeline created in AWS Glue to ensure governance policies are met, with stages for detecting sensitive data and evaluating data quality.
 4. Segregated data stored in the **Passed** and **Failed** folders within the transformed S3 bucket.
 5. A detailed report documenting the implementation of data protection and governance measures, including encryption, data replication, data quality checks, and handling of sensitive data.
+
 ---
+
 # Project: Data Observability for Parks Dataset for city of Vancouver
 
 ## Objective:
