@@ -137,13 +137,14 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
 
 
 #### Key Findings:
-| Neighborhood              | Average Park Size (Hectares) |
-|---------------------------|-----------------------------|
-| West End                 | 52.03                       |
-| Killarney                | 19.74                       |
-| South Cambie             | 14.03                       |
-| Grandview-Woodland       | 0.78                        |
-| Mount Pleasant           | 0.99                        |
+
+| Neighborhood         | Average Park Size (Hectares) |
+|----------------------|-----------------------------|
+| West End            | 52.03                      |
+| Killarney           | 19.74                      |
+| South Cambie        | 14.03                      |
+| Grandview-Woodland  | 0.78                       |
+| Mount Pleasant      | 0.99                       |
 
 - **Largest Parks**: West End (52.03 hectares).
 - **Smallest Parks**: Grandview-Woodland (0.78 hectares).
