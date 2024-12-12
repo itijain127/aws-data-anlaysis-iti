@@ -319,22 +319,23 @@ The objective of this project was to implement continuous monitoring and observa
 - City of Vancouver Parks dataset (transformed dataset stored in Amazon S3 buckets and analyzed using AWS Athena).
 
 ## Methodology:
-1. **Monitoring Dashboard Creation:**
+
+**Monitoring Dashboard Creation:**
    - A custom monitoring dashboard named **Parks-DAP-Mon-Dash-iti** was created in **Amazon CloudWatch** to provide real-time insights into system performance. This dashboard displayed key metrics such as bucket size, number of objects in each bucket, and estimated charges for data storage and processing.
 
 ![Alt text](Images Project-2/Figure 16 (Dashboard created in AWS CloudWatch).png)
 
-2. **Setting Up Alarms:**
+**Setting Up Alarms:**
    - Alarms were set up in Amazon CloudWatch to trigger when specific thresholds were crossed, such as when the bucket size exceeded 500,000 bytes in a single day. This ensures proactive management and quick action on potential issues such as data overflow or unexpected growth.
 
 ![Alt text](Images Project-2/Figure 17(Alarm set up for all three Storage Buckets).png)
 
-3. **CloudTrail Logging Implementation:**
+**CloudTrail Logging Implementation:**
    - **CloudTrail** was configured to capture detailed logs of all user activities and API calls within the data platform. A trail named **parks-trail-iti** was created to track actions like starting queries, creating resources, and logging in users. These logs provide a complete audit trail for compliance and troubleshooting.
 
 ![Alt text](Images Project-2/Figure 18 (Trail created in cloud trail).png)
 
-4. **Event History Logging:**
+**Event History Logging:**
    - The **Event History** feature of CloudTrail was used to track various user interactions and API activities. This included logging key events such as initiating queries, creating or deleting resources, and monitoring user logins, helping identify anomalies and ensuring the system operates as expected.
   
 ![Alt text](Images Project-2/Figure 19 (Trail showing event history).png)  
