@@ -10,7 +10,7 @@ Data Wrangling for Enhanced Park Analytics in Vancouver
 ### Objective
 To clean, transform, and consolidate the Vancouver Parks dataset to prepare it for robust analysis and reporting.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/6db0cacf00f4fc44f9663136706ad5111c7a15c8/Images%20Project%201/Figure%203%20(Design%20in%20draw.io%20for%20data%20implementation).png)
+![Alt text](Images Project 1/Figure 3 (Design in draw.io for data implementation).png))
 
 ### Methodology
 #### 1. Data Collection
@@ -19,21 +19,21 @@ To clean, transform, and consolidate the Vancouver Parks dataset to prepare it f
 #### 2. Data Profiling
 - Profiling with AWS Glue DataBrew revealed 99.99% valid entries with minimal missing values.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%205%20(Data%20profile%20overview%20from%20data%20profiling%20in%20data%20brew).png)
+![Alt text](Images Project 1/Figure 5 (Data profile overview from data profiling in data brew).png)
 
 #### 3. Data Cleaning
 - Cleaned data using AWS Glue DataBrew:
   - Handled missing values.
   - Standardized formats and renamed columns.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%208%20(Data%20cleaning%20output%20stored%20in%20two%20S3%20locations).png)
+![Alt text](Images Project 1/Figure 8 (Data cleaning output stored in two S3 locations).png)
 
 #### 4. Data Transformation
 - Removed any blank cells if any.
 - Changed the column names wherever required.
 - Following recipe is created for Data transformation
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%207%20(Data%20cleaning%20and%20recipe%20created%20for%20the%20dataset).png)
+![Alt text](Images Project 1/Figure 7 (Data cleaning and recipe created for the dataset).png)
 
 ### Tools and technologies
 
@@ -56,9 +56,9 @@ To clean, transform, and consolidate the Vancouver Parks dataset to prepare it f
 #### Objective: 
 To design and implement a data analytical platform for the city of Vancouver that enables descriptive and exploratory analysis of park data and calculates the cost of running this platform on AWS. The goal is to derive insights into park size distribution and its relationship to the number of parks across neighborhoods.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%202%20(Analysis%20chart%20of%20average%20park%20size%20per%20neighbourhood).png)
+![Alt text](Images Project 1/Figure 2 (Analysis chart of average park size per neighbourhood).png)
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%2012%20(Analysis%20of%20relation%20between%20avg.%20park%20size%20and%20number%20of%20parks%20per%20neighbourhood).png)
+![Alt text](Images Project 1/Figure 12 (Analysis of relation between avg. park size and number of parks per neighbourhood).png)
 
 ---
 
@@ -74,7 +74,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
 - **Other Columns**: Additional relevant fields
 
 #### Data Source:
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%201%20(Parks%20Dataset).png)
+![Alt text](Images Project 1/Figure 1 (Parks Dataset).png)
 
 
 ---
@@ -87,7 +87,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
 3. Organized data into subfolders: `Parks/Ingestion_Year=2024/ingestion_month=11/ingestion_week=47/`.
 4. Uploaded the dataset to S3 for further processing.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%204%20(Data%20ingestion%20in%20raw%20bucket).png)
+![Alt text](Images Project 1/Figure 4 (Data ingestion in raw bucket).png)
 
 ---
 
@@ -100,7 +100,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
    - Clean Data: 99.99% valid entries, <1% missing values, no duplicates.
    - Generated visualizations such as box plots and correlation matrices.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%205%20(Data%20profile%20overview%20from%20data%20profiling%20in%20data%20brew).png)
+![Alt text](Images Project 1/Figure 5 (Data profile overview from data profiling in data brew).png)
 ---
 
 #### Step 3: Data Cleaning
@@ -111,7 +111,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
    - Parquet: `s3://parks-trf-iti/Parks/Data_cleaning/system/`
 4. Partitioned the data by `official` for better organization.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%208%20(Data%20cleaning%20output%20stored%20in%20two%20S3%20locations).png)
+![Alt text](Images Project 1/Figure 8 (Data cleaning output stored in two S3 locations).png)
 
 ---
 
@@ -131,9 +131,9 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
    - System: `s3://parks-trf-iti/average-park-size/system/`
    - User: `s3://parks-trf-iti/average-park-size/user/`
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%2010%20(ETL%20Pipeline%20design%20for%20Descriptive%20analysis%20matric).png)
+![Alt text](Images Project 1/Figure 10 (ETL Pipeline design for Descriptive analysis matric).png)
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%2011%20(Result%20of%20the%20Descriptive%20metric%20data%20stored%20in%20S3%20bucket%20for%20System%20and%20user).png)
+![Alt text](Images Project 1/Figure 11 (Result of the Descriptive metric data stored in S3 bucket for System and user).png)
 
 
 #### Key Findings:
@@ -163,9 +163,9 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
    - System: `s3://parks-trf-iti/park-size-count-relation/system/`
    - User: `s3://parks-trf-iti/park-size-count-relation/user/`
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%2013%20(ETL%20pipeline%20design%20for%20exploratory%20analysis%20explaining%20the%20relation%20between%20number%20of%20parks%20and%20avg%20size).png)
+![Alt text](Images Project 1/Figure 13 (ETL pipeline design for exploratory analysis explaining the relation between number of parks and avg size).png))
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project%201/Figure%2014%20(Output%20data%20stored%20in%20S3%20bucket).png)
+![Alt text](Images Project 1/Figure 14 (Output data stored in S3 bucket).png)
 
 
 #### Key Findings:
@@ -200,7 +200,7 @@ The dataset used in this project, sourced from the Open Data Portal - City of Va
 ## Objective:
 The objective of this project was to enhance and prepare the City of Vancouver Parks dataset by converting it from a non-relational to a relational format, ensuring that the data is well-structured, accessible, and ready for analysis. The goal was to organize and enrich the data for advanced analytics, using AWS Glue for data transformation and Amazon Athena for querying.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%201(Design%20in%20draw.io)%20-%20.png)
+![Alt text](Images Project-2/Figure 1(Design in draw.io) - .png)
 
 ## Dataset:
 - City of Vancouver Parks dataset (original dataset in raw formats like CSV, JSON, and Parquet, stored in Amazon S3 buckets).
@@ -209,17 +209,17 @@ The objective of this project was to enhance and prepare the City of Vancouver P
 1. **Creation of a Data Catalog:**
    - A data catalog named **parks-datacatalog-iti** was created in AWS Glue to act as a centralized repository for the metadata of datasets stored in Amazon S3.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure-2(Data%20Catalog%20Created%20in%20AWS%20Glue).png)
+![Alt text](Images Project-2/Figure-2(Data Catalog Created in AWS Glue).png)
 
 2. **Configuration of Data Crawlers:**
    - Two crawlers (**parks-raw-crawler** and **parks-trf-crawler**) were configured in AWS Glue to scan the raw data in S3, detect the schema, and transform it into relational tables.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%203%20-%20Crawler%20created%20for%20both%20raw%20and%20transformed%20bucket.png)
+![Alt text](Images Project-2/Figure 3 - Crawler created for both raw and transformed bucket.png)
 
 3. **Storing Tables in a Database:**
    - The tables generated by the crawlers were stored in the **parks-datacatalog-iti** database in AWS Glue for easy access and querying.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%204%20-%20Generated%20tables%20as%20a%20result%20of%20crawler%20run.png)
+![Alt text](Images Project-2/Figure 4 - Generated tables as a result of crawler run.png)
 
 4. **Execution of Crawlers:**
    - The crawlers successfully transformed the raw data into structured tables in various formats (CSV, JSON, Parquet) and populated them in the Glue Data Catalog for easy querying.
@@ -228,12 +228,12 @@ The objective of this project was to enhance and prepare the City of Vancouver P
    - Using Amazon Athena, SQL queries were executed on the transformed data to perform descriptive analytics (e.g., calculating average park sizes and total parks in each neighborhood).
    - Results of these queries were stored in a curated S3 bucket (**parks-cur-iti**) for future reference.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%205(Descriptive%20analysis%20using%20SQL%20query%20in%20Athena).png)
+![Alt text](Images Project-2/Figure 5(Descriptive analysis using SQL query in Athena).png)
   
 6. **Insights from Query Results:**
    - Actionable insights, such as variations in park distribution and average park size by neighborhood, were derived from the query results.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%207%20-%20(Amazon%20Athena%20SQL%20Query%20results).png)
+![Alt text](Images Project-2/Figure 7 - (Amazon Athena SQL Query results).png)
 
 
 ## Tools and Techniques:
@@ -263,35 +263,35 @@ The objective of this project was to implement data protection and governance pr
 1. **Data Protection Measures:**
    - **Encryption**: A custom encryption key **Parks-key-iti** was created using AWS Key Management Service (KMS) to secure the dataset, ensuring confidentiality and control over the encryption/decryption process.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%208%20-%20Custom%20key%20created%20in%20KMS.png)
+![Alt text](Images Project-2/Figure 8 - Custom key created in KMS.png)
      
    - **Replication for Data Redundancy**: Replication rules were set up for both raw and transformed data buckets to enhance data availability and ensure disaster recovery. Replication was configured from the raw data bucket (**parks-raw-iti**) to the backup bucket (**parks-raw-back-iti**) and from the transformed data bucket (**parks-trf-iti**) to the backup bucket (**parks-trf-back-iti**).
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%209%20-(Replication%20rule%20created%20for%20raw%20bucket).png)
+![Alt text](Images Project-2/Figure 9 -(Replication rule created for raw bucket).png)
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2010(Replication%20rule%20created%20for%20Transform%20bucket).png)
+![Alt text](Images Project-2/Figure 10(Replication rule created for Transform bucket).png)
 
 2. **Data Governance Implementation:**
    - **Data Quality Pipeline**: A data quality pipeline named **parks-QPC-iti** was created in AWS Glue. This pipeline automated data quality checks, ensuring compliance with governance policies and helping to maintain data accuracy and consistency.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2011%20(Data%20Quality%20ETL%20pipeline%20created%20in%20AWS%20Glue).png)
+![Alt text](Images Project-2/Figure 11 (Data Quality ETL pipeline created in AWS Glue).png)
 
    - **Sensitive Data Detection**: A Transform node to **Detect PII (Personally Identifiable Information)** was incorporated into the pipeline to identify and handle sensitive information such as Canada Passport Numbers and Government Identification Numbers.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2012%20(Step%20implemented%20in%20ETL%20Pipeline%20to%20detect%20sensitive%20data).png)
+![Alt text](Images Project-2/Figure 12 (Step implemented in ETL Pipeline to detect sensitive data).png)
   
    - **Data Quality Evaluation**: Data was evaluated for completeness and freshness using an **Evaluate Data Quality** node. The pipeline ensured that the data was complete, up-to-date, and met quality standards.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2013%20(Data%20evaluated%20based%20on%20freshness%20and%20uniqueness).png)
+![Alt text](Images Project-2/Figure 13 (Data evaluated based on freshness and uniqueness).png)
     
    - **Failed and Passed Records Handling**: Data that passed the quality checks was routed to a **Passed** folder, while data that failed the checks was routed to a **Failed** folder for further processing.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2014%20(Data%20Quality%20folder%20created%20in%20transform%20bucket).png)
+![Alt text](Images Project-2/Figure 14 (Data Quality folder created in transform bucket).png)
 
 3. **Storing Quality-Checked Data**: 
    - The quality-checked data was stored in the **Passed** and **Failed** subfolders within the transformed S3 bucket (**parks-trf-iti**) for further analysis and troubleshooting.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2015%20(Result%20of%20passed%20quality%20data%20stored%20in%20S3).png)
+![Alt text](Images Project-2/Figure 15 (Result of passed quality data stored in S3).png)
 
 ## Tools and Techniques:
 - **AWS KMS (Key Management Service)**: For creating and managing custom encryption keys to ensure data confidentiality.
@@ -318,22 +318,22 @@ The objective of this project was to implement continuous monitoring and observa
 1. **Monitoring Dashboard Creation:**
    - A custom monitoring dashboard named **Parks-DAP-Mon-Dash-iti** was created in **Amazon CloudWatch** to provide real-time insights into system performance. This dashboard displayed key metrics such as bucket size, number of objects in each bucket, and estimated charges for data storage and processing.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2016%20(Dashboard%20created%20in%20AWS%20CloudWatch).png)
+![Alt text](Images Project-2/Figure 16 (Dashboard created in AWS CloudWatch).png)
 
 2. **Setting Up Alarms:**
    - Alarms were set up in Amazon CloudWatch to trigger when specific thresholds were crossed, such as when the bucket size exceeded 500,000 bytes in a single day. This ensures proactive management and quick action on potential issues such as data overflow or unexpected growth.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2017(Alarm%20set%20up%20for%20all%20three%20Storage%20Buckets).png)
+![Alt text](Images Project-2/Figure 17(Alarm set up for all three Storage Buckets).png)
 
 3. **CloudTrail Logging Implementation:**
    - **CloudTrail** was configured to capture detailed logs of all user activities and API calls within the data platform. A trail named **parks-trail-iti** was created to track actions like starting queries, creating resources, and logging in users. These logs provide a complete audit trail for compliance and troubleshooting.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2018%20(Trail%20created%20in%20cloud%20trail).png)
+![Alt text](Images Project-2/Figure 18 (Trail created in cloud trail).png)
 
 4. **Event History Logging:**
    - The **Event History** feature of CloudTrail was used to track various user interactions and API activities. This included logging key events such as initiating queries, creating or deleting resources, and monitoring user logins, helping identify anomalies and ensuring the system operates as expected.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20Project-2/Figure%2019%20(Trail%20showing%20event%20history).png)  
+![Alt text](Images Project-2/Figure 19 (Trail showing event history).png)  
 
 ## Tools and Techniques:
 - **Amazon CloudWatch**: For monitoring system metrics, creating a custom dashboard, and setting up alarms for proactive issue management.
@@ -355,7 +355,7 @@ The objective of this project was to implement continuous monitoring and observa
 
 The Goal was to perform all these steps in AWS console as per the requirements of the projects which was designed in Draw.io.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Draw.io.png)
+![Alt text](Images UCW/Draw.io.png)
 
 Following projects were executed to acheive this:
 
@@ -380,18 +380,18 @@ To prepare and clean the program review data for analysis by addressing inconsis
    - Loaded the dataset into AWS S3 for processing.  
    - Organized files into structured folders for accessibility.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Data%20ingestion%201.png)
+![Alt text](Images UCW/Data ingestion 1.png)
      
 2. **Data Cleaning**:  
    - Addressed missing values and standardized formats using AWS Glue DataBrew.  
    - Removed duplicates and ensured data integrity.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Data%20cleaning%20recipe.png)
+![Alt text](Images UCW/Data cleaning recipe.png)
   
 3. **Profiling**:  
    - Profiled the data using AWS Glue DataBrew to identify quality issues and understand dataset characteristics.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Data%20Profiling.png)
+![Alt text](Images UCW/Data Profiling.png)
 
 #### **Tools and Techniques**  
 - **AWS Services**:  
@@ -429,7 +429,7 @@ To summarize and analyze program review data, focusing on metrics such as comple
      Completion Review Rate = Total Number of Completed Reviews\Total Number of Reviews
   
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/ETL%20pipeline.png)
+![Alt text](Images UCW/ETL pipeline.png)
 
 #### **Tools and Techniques**  
 - **AWS Services**:  
@@ -462,16 +462,16 @@ To enhance the dataset by converting non-relational data into a relational forma
 1. **Data Enrichment**:  
    - Created a data catalog and configured AWS Glue Crawlers to convert the non-relational dataset into a relational format.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Crawlers.png)
+![Alt text](Images UCW/Crawlers.png)
 
    - Stored relational tables in a centralized database for querying.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Relational%20Database.png)
+![Alt text](Images UCW/Relational Database.png)
 
 1. **Analysis**:  
    - Used Amazon Athena to perform SQL queries for descriptive and exploratory analysis.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Athena.png)
+![Alt text](Images UCW/Athena.png)
 
 2. **Result Storage**:  
    - Stored enriched data and query results in partitioned folders in S3.  
@@ -506,15 +506,15 @@ To secure the UCW dataset by implementing encryption, redundancy, and data quali
    - Created a custom encryption key in AWS KMS to secure sensitive data.  
    - Configured replication rules for raw and transformed buckets to ensure redundancy.
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/reprule%20raw.png)
+![Alt text](Images UCW/reprule raw.png)
 
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Reprule%20trf.png)
+![Alt text](Images UCW/Reprule trf.png)
   
 2. **Governance**:  
    - Designed a Data Quality Pipeline in AWS Glue to detect PII and evaluate data completeness and freshness.  
    - Organized data into "Passed" and "Failed" folders based on quality checks.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Data%20QPC%20%20pipeline.png) 
+![Alt text](Images UCW/Data QPC  pipeline.png) 
 
 #### **Tools and Techniques**  
 - **AWS Services**:  
@@ -544,7 +544,7 @@ To implement monitoring and observability measures for the UCW dataset to ensure
 1. **Monitoring Dashboard**:  
    - Created a custom CloudWatch dashboard to monitor bucket size, object count, and estimated costs.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Dashboard.png) 
+![Alt text](Images UCW/Dashboard.png) 
   
 2. **Alarm Configuration**:  
    - Set up alarms to detect critical thresholds, such as excessive storage usage.
@@ -552,7 +552,7 @@ To implement monitoring and observability measures for the UCW dataset to ensure
 3. **Event Logging**:  
    - Enabled CloudTrail logging to track API activities and user actions for compliance.
   
-![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/main/Images%20UCW/Cloud%20trail.png) 
+![Alt text](Images UCW/Cloud trail.png) 
 
 #### **Tools and Techniques**  
 - **AWS Services**:  
