@@ -10,7 +10,7 @@ Data Wrangling for Enhanced Park Analytics in Vancouver
 ### Objective
 To clean, transform, and consolidate the Vancouver Parks dataset to prepare it for robust analysis and reporting.
 
-![Alt text](Images Project-2/Figure 5(Descriptive analysis using SQL query in Athena).png)
+![Alt text](https://github.com/itijain127/aws-data-anlaysis-iti/blob/6db0cacf00f4fc44f9663136706ad5111c7a15c8/Images%20Project%201/Figure%203%20(Design%20in%20draw.io%20for%20data%20implementation).png)
 
 ### Methodology
 #### 1. Data Collection
